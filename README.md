@@ -1,8 +1,8 @@
-/**
+
  * Practice: PathVariable, RequestParam, basic GET
  * Created: 2025-08-11
  * Author: Dharshan B
- */
+
 ## API Endpoints
 
 | Feature         | Method | Endpoint           | Description                  |

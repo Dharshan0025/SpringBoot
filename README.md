@@ -10,6 +10,8 @@
 | Hello World     | GET    | /hello             | Returns "Hello World"        |
 | Greeting        | GET    | /greet/{name}      | Returns "Hello, {name}"      |
 | Square          | GET    | math/square?num=5  | Returns square of number     |
+| factorial       | GET    | math/factorial?n=5 | Returns factorial of number  |
+| Add             | GET    | math/square?a=5&b=1| Returns addition of number   |
 | Add User        | POST   | /user              | Adds a new user              |
 | Update User     | PUT    | /user/{id}         | Updates user details         |
 | Delete User     | DELETE | /user/{id}         | Deletes user by ID           |

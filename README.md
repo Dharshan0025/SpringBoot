@@ -9,7 +9,7 @@
 |-----------------|--------|--------------------|------------------------------|
 | Hello World     | GET    | /hello             | Returns "Hello World"        |
 | Greeting        | GET    | /greet/{name}      | Returns "Hello, {name}"      |
-| Square          | GET    | /square?number=5   | Returns square of number     |
+| Square          | GET    | math/square?num=5  | Returns square of number     |
 | Add User        | POST   | /user              | Adds a new user              |
 | Update User     | PUT    | /user/{id}         | Updates user details         |
 | Delete User     | DELETE | /user/{id}         | Deletes user by ID           |

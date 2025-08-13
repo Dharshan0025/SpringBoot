@@ -1,4 +1,4 @@
-package com.example.HelloWorld;
+package com.example.HelloWorld.CrudApis;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +18,7 @@ public class MathController {
         return a+b;
     }
     @GetMapping("/factorial")
-    int factorial(@RequestParam int num){
+    int factorial(@RequestParam("n") int num){
         int fact=1;
         for(int i=num;i>0;i--){
             fact*=i;

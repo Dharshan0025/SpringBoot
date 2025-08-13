@@ -1,4 +1,4 @@
-package com.example.HelloWorld;
+package com.example.HelloWorld.CrudApis;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

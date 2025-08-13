@@ -1,4 +1,4 @@
-package com.example.HelloWorld;
+package com.example.HelloWorld.CrudApis;
 
 public class User {
     private int id;
